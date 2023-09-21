@@ -116,7 +116,7 @@ a {
   min-height: 10vh;
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
-  top: 8vh;
+  top: 2vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -124,6 +124,13 @@ a {
   font-size: 28px;
   line-height: 32px;
   color: white;
+  z-index: 10;
+  @media screen and (max-width: 600px) {
+    padding-left: 2vw;
+    height: 20px;
+    top: 2vw;
+    background: rgba(0, 0, 0, 0.71);
+  }
 
   a {
     transition: color 300ms;
@@ -133,6 +140,10 @@ a {
       /*color: rgb(1, 179, 75);*/
       text-shadow: 1px 1px rgb(23, 181, 12);
       transform: scale(1.1);
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 18px;
+      line-height: 20px;
     }
   }
 
@@ -181,6 +192,10 @@ a {
   font-family: mooli;
   font-size: 18px;
   text-align: justify;
+  @media screen and (max-width: 600px) {
+    font-size: 12px;
+    padding: 2vw 10vw;
+  }
 }
 
 .standard-section-title {
@@ -191,6 +206,9 @@ a {
   text-align: center;
   font-size: 50px;
   font-family: caveat;
+  @media screen and (max-width: 600px) {
+    font-size: 30px;
+  }
 }
 
 .menu-container {
@@ -234,9 +252,9 @@ a {
 }
 
 .site-logo {
-  width: 25vh;
-  height: 25vh;
-  padding: 1vh;
+  width: 15vw;
+  height: 15vw;
+  padding: 1vw;
   box-sizing: border-box;
   background: rgb(243, 255, 245, 0.95);
   border-radius: 50%;
@@ -244,6 +262,12 @@ a {
   border: 2px solid rgb(22, 186, 90);
   border-bottom: 1px;
   left: 3vw;
-  bottom: -8vh;
+  bottom: -5vw;
   box-shadow: 0 0 3px rgb(108, 108, 108);
+  @media screen and (max-width: 600px) {
+    width: 20vw;
+    height: 20vw;
+    padding: 1vw;
+    position: unset;
+  }
 }
