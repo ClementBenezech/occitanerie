@@ -112,20 +112,27 @@ a {
 
 .app-header {
   width: 100vw;
-  height: 10vh;
+  height: min-content;
+  min-height: 10vh;
   background: rgba(0, 0, 0, 0.3);
-  position: fixed;
+  position: absolute;
+  top: 8vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  padding-left: 24vh;
   font-size: 28px;
+  line-height: 32px;
   color: white;
 
   a {
     transition: color 300ms;
+    transition: transform 200ms;
     font-family: caveat;
     &:hover {
-      color: rgb(28, 202, 164);
+      /*color: rgb(1, 179, 75);*/
+      text-shadow: 1px 1px rgb(23, 181, 12);
+      transform: scale(1.1);
     }
   }
 
@@ -224,4 +231,19 @@ a {
 
 .black {
   color: rgb(46, 46, 46);
+}
+
+.site-logo {
+  width: 25vh;
+  height: 25vh;
+  padding: 1vh;
+  box-sizing: border-box;
+  background: rgb(243, 255, 245, 0.95);
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid rgb(22, 186, 90);
+  border-bottom: 1px;
+  left: 3vw;
+  bottom: -8vh;
+  box-shadow: 0 0 3px rgb(108, 108, 108);
 }

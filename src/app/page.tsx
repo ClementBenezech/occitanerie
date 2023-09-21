@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import homeImg from "../images/home.jpg";
+import homeImg from "../images/home.png";
 import styles from "./page.module.css";
 import Image from "next/image";
 
