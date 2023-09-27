@@ -2,8 +2,27 @@
 import styles from "../page.module.css";
 import animals from "../../images/animals.jpg";
 import Image from "next/image";
+import { activities } from "@/content/activities/activities";
+import { Activity } from "@/content/activities/activities";
 
 export default function Page() {
+  const ActivitiesCards = activities.map((activity: Activity) => {
+    const Description = activity.description.map((paragraph) => {
+      return (
+        <div className="activity-card-paragraph" key={paragraph}>
+          {paragraph}
+        </div>
+      );
+    });
+    return (
+      <div key={activity.name}>
+        <div className="activity-card-title">{activity.name}</div>
+        {Description}
+        <div className="activity-card-paragraph">{`${activity.when}, ${activity.details} `}</div>
+      </div>
+    );
+  });
+
   return (
     <main className={styles.main}>
       <Image
@@ -11,22 +30,16 @@ export default function Page() {
         src={animals}
         alt="Des bons gros farmers"
       />
-      <div className="standard-section-title">Les animaux, c'est rigolo!</div>
-      <span className="standard-paragraph">
-        Les ânes, cochons, boucs, canards, poules et cochons d'Inde de la ferme
-        sont une source inépuisable de rires"
-      </span>
-      <span className="standard-paragraph">
-        Les ânes avec leurs grandes oreilles, les cochons avec leurs bains de
-        boue, les boucs qui sautent partout, les canards qui gloussent, les
-        poules qui picorent et les cochons d'Inde avec leurs petits cris.
-      </span>
-      <span className="standard-paragraph">
-        Leurs comportements drôles et espiègles illuminent la ferme et nous
-        rappellent l'importance de la légèreté et de la joie dans la vie
-        quotidienne. Passe du temps avec eux et laisse-toi emporter par leurs
-        facéties hilarantes!
-      </span>
+      <div className="page-cover-image-text">
+        <div className="standard-section-title">Des activités pour tous!</div>
+        <span className="cover-paragraph">
+          Les blancs les noirs, même les mangeurs de sushis!
+        </span>
+        <span className="cover-paragraph">
+          Sauf les scolaires. C'est chiant les scolaires :)
+        </span>
+      </div>
+      {ActivitiesCards}
     </main>
   );
 }

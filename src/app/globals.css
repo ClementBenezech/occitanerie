@@ -306,7 +306,7 @@ a {
   padding: 40px 20px;
   width: 80%;
   display: flex;
-  flex-direction: columns;
+  flex-direction: activity-card-paragraphcolumns;
   flex-wrap: nowrap;
   @media screen and (max-width: 1024px) {
     flex-direction: row;
@@ -364,5 +364,35 @@ a {
   @media screen and (max-width: 1024px) {
     padding: unset;
     text-align: justify;
+  }
+}
+
+.activity-card-paragraph {
+  padding: 12px 10vw;
+  width: 100%;
+  color: black;
+  font-family: mooli;
+  font-size: 18px;
+  text-align: justify;
+  @media screen and (max-width: 1024px) {
+    font-size: 12px;
+    padding: 2vw 10vw;
+  }
+}
+
+.activity-card-title {
+  padding-top: 48px;
+  padding-left: 0vw;
+  margin-bottom: 48px;
+  width: 80%;
+  margin-left: 10vw;
+  color: black;
+  font-family: caveat;
+  font-size: 48px;
+  text-align: justify;
+  border-bottom: 2px solid rgb(22, 186, 90);
+  @media screen and (max-width: 1024px) {
+    font-size: 12px;
+    padding: 2vw 10vw;
   }
 }

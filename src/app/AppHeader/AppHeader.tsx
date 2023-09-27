@@ -15,7 +15,7 @@ export const AppHeader = () => {
         <Link className="menu-item" href="/home">
           Home
         </Link>
-        <Link className="menu-item" href="/about">
+        <Link className="menu-item" href="/activites">
           Nos activités
         </Link>
         <Link className="menu-item" href="/animaux">
