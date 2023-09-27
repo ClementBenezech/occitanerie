@@ -130,36 +130,36 @@ a {
   color: white;
   z-index: 10;
 
-  a {
-    transition: color 300ms;
-    transition: transform 200ms;
-    font-family: caveat;
-    &:hover {
-      /*color: rgb(1, 179, 75);*/
-      text-shadow: 1px 1px rgb(23, 181, 12);
-      transform: scale(1.1);
-    }
-  }
-
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1024px) {
     padding-left: 2vw;
-    height: 20px;
+    height: min-content;
     top: 2vw;
     background: none;
     flex-direction: column-reverse;
     gap: 24px;
-    @media screen and (max-width: 800px) {
-      a {
-        width: 24vw;
-        font-size: 4vw;
-        line-height: 4vw;
-        text-align: center;
-      }
-    }
   }
 
   div {
     font-family: "Fredericka the Great", cursive;
+  }
+}
+
+.menu-item {
+  width: 15vw;
+  transition: color 300ms;
+  transition: transform 200ms;
+  font-family: caveat;
+  &:hover {
+    /*color: rgb(1, 179, 75);*/
+    text-shadow: 1px 1px rgb(23, 181, 12);
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 24vw;
+    font-size: 4vw;
+    line-height: 4vw;
+    text-align: center;
   }
 }
 
@@ -236,9 +236,15 @@ a {
 }
 
 .menu-container {
-  width: 96vw;
+  width: 76vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  text-align: center;
+  @media screen and (max-width: 1024px) {
+    width: 90vw;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.3);
+  }
 }
 
 .footer {

@@ -12,10 +12,18 @@ export const AppHeader = () => {
         alt="Un logo avec plusieurs animaux dessinés"
       />
       <div className="menu-container">
-        <Link href="/home">Home</Link>
-        <Link href="/about">Nos activités</Link>
-        <Link href="/animaux">Les animaux</Link>
-        <Link href="/about">A propos</Link>
+        <Link className="menu-item" href="/home">
+          Home
+        </Link>
+        <Link className="menu-item" href="/about">
+          Nos activités
+        </Link>
+        <Link className="menu-item" href="/animaux">
+          Les animaux
+        </Link>
+        <Link className="menu-item" href="/about">
+          A propos
+        </Link>
       </div>
     </header>
   );
