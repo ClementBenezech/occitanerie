@@ -15,7 +15,7 @@ export default function Page() {
       );
     });
     return (
-      <div key={activity.name}>
+      <div className="activity-card" key={activity.name}>
         <div className="activity-card-title">{activity.name}</div>
         {Description}
         <div className="activity-card-paragraph">{`${activity.when}, ${activity.details} `}</div>

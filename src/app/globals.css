@@ -252,6 +252,11 @@ a {
   flex-direction: row;
   background-color: rgb(245, 245, 245);
   padding: 16px;
+  font-family: caveat;
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 
 .footer-container {
@@ -259,7 +264,12 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 16px;
+  padding: 24px;
+  padding-left: 10vw;
+  font-size: 20px;
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
 }
 
 .standard-content-image {
@@ -367,6 +377,10 @@ a {
   }
 }
 
+.activity-card {
+  padding-bottom: 32px;
+}
+
 .activity-card-paragraph {
   padding: 12px 10vw;
   width: 100%;
@@ -383,7 +397,7 @@ a {
 .activity-card-title {
   padding-top: 48px;
   padding-left: 0vw;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   width: 80%;
   margin-left: 10vw;
   color: black;
@@ -392,7 +406,7 @@ a {
   text-align: justify;
   border-bottom: 2px solid rgb(22, 186, 90);
   @media screen and (max-width: 1024px) {
-    font-size: 12px;
-    padding: 2vw 10vw;
+    font-size: 20px;
+    padding: 2vw 0vw;
   }
 }
