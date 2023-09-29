@@ -30,34 +30,42 @@ export default function Home() {
       </div>
       <div className="page-content">
         <div className="standard-paragraph black">
-          Tu vois, premièrement, entre penser et dire, il y a un monde de
-          différence et c'est très, très beau d'avoir son propre moi-même !
-          C'est cette année que j'ai eu la révélation ! Tu vois, je sais que,
-          grâce à ma propre vérité il faut toute la splendeur du aware et
-          parfois c'est bon parfois c'est pas bon. Et tu as envie de le dire au
-          monde entier, including yourself
-        </div>{" "}
+          Notre approche est centrée sur l'accueil de petits groupes de publics
+          spécifiques (Structures spécialisées, Petite enfance, Maisons de
+          retraites...),
+        </div>
         <div className="standard-paragraph black">
-          {" "}
-          Si je t'emmerde, tu me le dis, après il faut s'intégrer tout ça dans
-          les environnements et il y a de bonnes règles, de bonnes rules car
-          l'aboutissement de l'instinct, c'est l'amour !
-        </div>{" "}
+          Nous vous proposons de nombreuses activités autour des animaux, de
+          l'agriculture (maraîchage), et de la vie et du travail à la ferme en
+          général.
+        </div>
+        <div className="standard-paragraph black">
+          Consultez notre page "activités" pour en savoir plus :)
+        </div>
+
         <Image
           className="standard-content-image"
           src={donkeys}
           alt="Des ânes contents qui tirent la langue"
         />
         <div className="standard-paragraph black">
-          {" "}
-          Mais ça, c'est uniquement lié au spirit. Si je t'emmerde, tu me le
-          dis, si vraiment tu veux te rappeler des souvenirs de ton perroquet,
-          c'est un très, très gros travail car l'aboutissement de l'instinct,
-          c'est l'amour ! Et tu as envie de le dire au monde entier, including
-          yourself. Quand tu fais le calcul, là on voit qu'on a beaucoup à
-          travailler sur nous-mêmes car entre penser et dire, il y a un monde de
-          différence et ça, c'est très dur, et, et, et... c'est très facile en
-          même temps. C'est cette année que j'ai eu la révélation !
+          De nombreux espaces extérieurs et intérieurs ont été aménagés pour le
+          confort des animaux... et le votre!
+        </div>
+        <div className="bulletpoints-container black">
+          <div>- les prés</div>
+          <div>- Un hectare de forêt avec des coins pique-nique</div>
+          <div>- L’étang avec ses poissons et grenouilles</div>
+          <div>- Le potager</div>
+          <div>- La grande serre</div>
+          <div>- Les écuries</div>
+          <div>- Le poulailler</div>
+          <div>- la grange</div>
+          <div>
+            - les deux salles pédagogiques (dont une chauffée avec espace
+            cuisine)
+          </div>
+          <div>- l’espace de pansage extérieur</div>
         </div>
       </div>
     </main>

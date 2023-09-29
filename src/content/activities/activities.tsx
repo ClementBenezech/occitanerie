@@ -73,17 +73,3 @@ export const activities = [
     details: "",
   },
 ];
-
-/*
-
-
-
-
-Les évènements :
-A l’occasion de certains évènements (Pâques, Halloween, Noël, fête de l’association…), la
-ferme s’ouvrira au public sous d’autres modalités. Il sera possible de venir sans
-réservation de groupe.
-La communication sur ces événements se fait par le biais de la page Facebook (lien).
-Abonnez-vous pour ne rien manquer des actualités.
-
-*/
