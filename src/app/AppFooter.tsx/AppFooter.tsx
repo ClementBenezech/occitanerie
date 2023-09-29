@@ -10,6 +10,12 @@ const AppFooter = () => {
       <div className="footer-container">
         <div>Association loi 1901</div>
         <div>SIRET: 852 345 987 00012</div>
+        <a
+          className="facebook-link"
+          href="https://www.facebook.com/Loccitanerie"
+        >
+          Page Facebook
+        </a>
       </div>
     </div>
   );

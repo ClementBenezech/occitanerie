@@ -435,3 +435,14 @@ a {
     }
   }
 }
+
+.google-map {
+  margin: 48px;
+}
+
+.facebook-link {
+  color: rgb(0, 124, 225);
+  &:hover {
+    color: rgb(0, 124, 225);
+  }
+}
