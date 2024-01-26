@@ -171,7 +171,6 @@ a {
   align-items: center;
   justify-content: center;
   font-size: 20px;
-  color: white;
 }
 
 .page-cover-image {
@@ -253,6 +252,7 @@ a {
   background-color: rgb(245, 245, 245);
   padding: 16px;
   font-family: caveat;
+  color: black;
   @media screen and (max-width: 1024px) {
     flex-direction: column;
     flex-wrap: wrap;
@@ -325,6 +325,7 @@ a {
   display: flex;
   flex-direction: activity-card-paragraphcolumns;
   flex-wrap: nowrap;
+  color: black;
   @media screen and (max-width: 1024px) {
     flex-direction: row;
     flex-wrap: wrap;
