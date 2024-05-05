@@ -263,10 +263,12 @@ a {
   background-color: rgb(245, 245, 245);
   padding: 16px;
   font-family: caveat;
-  color: black;
+  background-color: rgb(20, 20, 20);
+  color: white;
   @media screen and (max-width: 1024px) {
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
   }
 }
 
@@ -279,7 +281,11 @@ a {
   padding-left: 10vw;
   font-size: 20px;
   @media screen and (max-width: 1024px) {
-    width: 100%;
+    width: fit-content;
+    padding: 0;
+  }
+  & > * {
+    text-align: center;
   }
 }
 
@@ -289,16 +295,21 @@ a {
   object-fit: contain;
   margin: 24px;
   border-radius: 12px;
+  max-height: 90vh;
+  @media screen and (max-width: 1024px) {
+    width: 100vw;
+    border-radius: 0;
+  }
 }
 
 .activity-info-card {
-  width: 60%;
+  width: 50%;
   object-fit: contain;
   margin-top: 2vh;
   height: min-content;
   margin: 2vw 0;
   @media screen and (max-width: 1024px) {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -467,8 +478,18 @@ a {
 }
 
 .facebook-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: rgb(0, 124, 225);
   &:hover {
     color: rgb(0, 124, 225);
   }
+}
+
+.social-networks {
+  display: flex;
+  height: 10vh;
+  margin-top: 3vh;
+  justify-content: space-evenly;
 }
