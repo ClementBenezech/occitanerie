@@ -274,7 +274,7 @@ a {
 
 .standard-content-image {
   height: fit-content;
-  width: 50%;
+  width: 80%;
   object-fit: contain;
   margin: 24px;
   border-radius: 12px;

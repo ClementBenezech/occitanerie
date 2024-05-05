@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import homeImg from "../../images/homeDonkeys.png";
 import donkeys from "../../images/tirelalangue.jpg";
+import farmMap from "../../images/plan-de-la-ferme.png";
 import styles from "./../page.module.css";
 import Image from "next/image";
 
@@ -15,13 +16,16 @@ export default function Home() {
       <div className="page-cover-image-text">
         <div className="standard-section-title">Bienvenue à la ferme!</div>
         <span className="standard-paragraph">
-          L’Occit’Ânerie est une petite ferme pédagogique qui se situe sur la
-          commune de Le Born, dans les coteaux de Villemur-sur-Tarn.{" "}
+          L’Occit’Ânerie est une ferme pédagogique située sur la commune de Le
+          Born, dans les coteaux de Villemur-sur-Tarn.
         </span>
         <span className="standard-paragraph">
-          Sur un terrain de presque 4 Ha, au bout d’un chemin, en lisière de
-          forêt, venez vous ressourcer dans cet écrin de verdure en compagnie de
-          nos animaux
+          Venez découvrir ce lieu privilégié, prendre le temps d’écouter notre
+          belle nature, loin des bruits de la route et des villes. Vous pourrez
+          y rencontrer nos animaux et découvrir tout un espace consacré au
+          maraîchage. C’est aussi l’occasion d’observer la faune et la flore
+          locale grâce au différents éco-systèmes présents sur le site
+          (prairies, étang, forêt).
         </span>
         {/* <span className="standard-paragraph">
           La structure permet l’accueil de petits groupes, toute l’année.
@@ -30,17 +34,23 @@ export default function Home() {
       </div>
       <div className="page-content">
         <div className="standard-paragraph black">
-          Notre approche est centrée sur l'accueil de petits groupes de publics
-          spécifiques (Structures spécialisées, Petite enfance, Maisons de
-          retraites...),
+          Notre objectif premier est de mettre en lien les visiteurs avec les
+          animaux de la ferme mais aussi les végétaux grâce à la serre, au
+          potager et au verger.
         </div>
         <div className="standard-paragraph black">
-          Nous vous proposons de nombreuses activités autour des animaux, de
-          l'agriculture (maraîchage), et de la vie et du travail à la ferme en
-          général.
+          Nous proposons de nombreuses activités autour des animaux, du
+          maraîchage et du “travail” à la ferme en général. Différents ateliers
+          sont également proposés tous les mois, en fonction des saisons et de
+          ce que nous offre la ferme et la nature.
         </div>
         <div className="standard-paragraph black">
-          Consultez notre page "activités" pour en savoir plus :)
+          Tout un panel de formules a été créé, pour différents effectifs de
+          groupe, pour les structures et les particuliers.
+        </div>
+        <div className="standard-paragraph black">
+          Mais tous les projets sont envisageables... N’hésitez pas à nous faire
+          vos demandes que nous prendrons le temps d’étudier avec vous.
         </div>
 
         <Image
@@ -52,21 +62,12 @@ export default function Home() {
           De nombreux espaces extérieurs et intérieurs ont été aménagés pour le
           confort des animaux... et le votre!
         </div>
-        <div className="bulletpoints-container black">
-          <div>- les prés</div>
-          <div>- Un hectare de forêt avec des coins pique-nique</div>
-          <div>- L’étang avec ses poissons et grenouilles</div>
-          <div>- Le potager</div>
-          <div>- La grande serre</div>
-          <div>- Les écuries</div>
-          <div>- Le poulailler</div>
-          <div>- la grange</div>
-          <div>
-            - les deux salles pédagogiques (dont une chauffée avec espace
-            cuisine)
-          </div>
-          <div>- l’espace de pansage extérieur</div>
-        </div>
+
+        <Image
+          className="standard-content-image"
+          src={farmMap}
+          alt="Un plan qui montre les différentes zones de la ferme pédagogique"
+        />
       </div>
     </main>
   );
