@@ -146,7 +146,6 @@ a {
 }
 
 .cover-text-background {
-  position: relative;
   @media screen and (max-width: 1024px) {
     object-fit: cover;
     overflow: hidden;
