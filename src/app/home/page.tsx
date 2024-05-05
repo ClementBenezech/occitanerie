@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import homeImg from "../../images/homeDonkeys.png";
+import homeImg from "../../images/homeDonkeys2.png";
 import donkeys from "../../images/tirelalangue.jpg";
 import farmMap from "../../images/plan-de-la-ferme.png";
 import styles from "./../page.module.css";
