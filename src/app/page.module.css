@@ -5,6 +5,8 @@
   align-items: center;
   min-height: 100vh;
   background: rgb(254, 254, 254);
+  width: 100vw;
+  overflow: hidden;
 }
 
 .description {

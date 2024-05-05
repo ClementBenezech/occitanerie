@@ -116,7 +116,6 @@ a {
 
 .app-header {
   width: 100vw;
-  height: min-content;
   min-height: 10vh;
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
@@ -216,7 +215,7 @@ a {
   right: 0;
   height: 50vh;
   @media screen and (max-width: 1024px) {
-    height: 60vh;
+    height: 75vh;
   }
 }
 
