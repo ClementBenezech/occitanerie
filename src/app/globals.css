@@ -102,6 +102,7 @@ a {
   height: 100vh;
   object-fit: cover;
   object-position: center;
+  filter: brightness(50%);
   @media screen and (max-width: 1024px) {
     object-position: left;
     object-fit: cover;
@@ -109,7 +110,7 @@ a {
 }
 
 .page-cover-image-text {
-  height: min-content;
+  height: 7vw;
   padding: 16px;
   display: flex;
   flex-direction: row;
@@ -119,6 +120,9 @@ a {
   margin-left: auto;
   margin-right: auto;
   background: rgba(0, 0, 0, 0.524);
+  @media screen and (max-width: 1024px) {
+    height: 35vh;
+  }
 }
 
 .title-container {
@@ -140,10 +144,11 @@ a {
   font-size: 1.5vw;
   text-align: justify;
   position: relative;
-  top: -50px;
+  top: -13vw;
   @media screen and (max-width: 1024px) {
-    font-size: 3.5vw;
+    font-size: 2.1vh;
     padding: 2vw 1vw;
+    top: -8vh;
   }
 }
 
@@ -175,9 +180,10 @@ a {
   font-size: 50px;
   font-family: caveat;
   position: relative;
-  top: -50px;
+  top: -13vw;
   @media screen and (max-width: 1024px) {
     font-size: 30px;
+    top: -8vh;
   }
 }
 
