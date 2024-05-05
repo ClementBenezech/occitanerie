@@ -103,7 +103,8 @@ a {
   object-fit: cover;
   object-position: center;
   @media screen and (max-width: 1024px) {
-    object-position: -240px;
+    object-position: left;
+    object-fit: cover;
   }
 }
 
