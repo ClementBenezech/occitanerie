@@ -2,8 +2,8 @@ const AppFooter = () => {
   return (
     <div className="footer">
       <div className="footer-container">
-        <div>Occitanerie</div>
-        <div>Worlds best ferme pédagogique since 1845</div>
+        <div>L' Occitanerie</div>
+        <div>Ferme pédagogique</div>
         <div>669 chemin des camparnals</div>
         <div>31340 le born</div>
       </div>
