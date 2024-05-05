@@ -142,7 +142,7 @@ a {
   position: relative;
   top: -50px;
   @media screen and (max-width: 1024px) {
-    font-size: 2vh;
+    font-size: 3.5vw;
     padding: 2vw 1vw;
   }
 }
@@ -162,7 +162,7 @@ a {
   font-size: 18px;
   text-align: justify !important;
   @media screen and (max-width: 1024px) {
-    font-size: 12px;
+    font-size: 2vh;
     padding: 2vw 10vw;
   }
 }
@@ -370,7 +370,7 @@ a {
   font-size: 18px;
   text-align: justify;
   @media screen and (max-width: 1024px) {
-    font-size: 12px;
+    font-size: 3.5vw;
     padding: 2vw 10vw;
   }
 }
