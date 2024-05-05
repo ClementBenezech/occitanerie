@@ -186,26 +186,35 @@ a {
   left: 0;
   right: 0;
   height: min-content;
-  background: rgba(0, 0, 0, 0.3);
   padding: 16px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   font-weight: 500;
   font-family: caveat;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cover-paragraph {
-  padding: 12px 5vw;
+  padding: 12px 1vw;
   width: 100%;
   color: white;
   font-family: mooli;
-  font-size: 18px;
-  text-align: center;
+  font-size: 1.5vw;
+  text-align: justify;
   @media screen and (max-width: 1024px) {
-    font-size: 12px;
-    padding: 2vw 10vw;
+    font-size: 2vh;
+    padding: 2vw 1vw;
   }
+}
+
+.cover-text-background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50vh;
 }
 
 .standard-paragraph {
@@ -214,7 +223,7 @@ a {
   color: white;
   font-family: mooli;
   font-size: 18px;
-  text-align: justify;
+  text-align: justify !important;
   @media screen and (max-width: 1024px) {
     font-size: 12px;
     padding: 2vw 10vw;
@@ -223,8 +232,7 @@ a {
 
 .standard-section-title {
   color: white;
-  width: 40%;
-  margin-left: 30%;
+  width: 100%;
   padding: 4px;
   text-align: center;
   font-size: 50px;
@@ -280,6 +288,17 @@ a {
   border-radius: 12px;
 }
 
+.activity-info-card {
+  width: 60%;
+  object-fit: contain;
+  margin-top: 2vh;
+  height: min-content;
+  margin: 2vw 0;
+  @media screen and (max-width: 1024px) {
+    width: 80%;
+  }
+}
+
 .page-content {
   display: flex;
   flex-direction: column;
@@ -323,7 +342,7 @@ a {
   padding: 40px 20px;
   width: 80%;
   display: flex;
-  flex-direction: activity-card-paragraphcolumns;
+
   flex-wrap: nowrap;
   color: black;
   @media screen and (max-width: 1024px) {
@@ -386,7 +405,11 @@ a {
 }
 
 .activity-card {
-  padding-bottom: 32px;
+  padding: 2vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .activity-card-paragraph {
@@ -407,7 +430,6 @@ a {
   padding-left: 0vw;
   margin-bottom: 24px;
   width: 80%;
-  margin-left: 10vw;
   color: black;
   font-family: caveat;
   font-size: 48px;

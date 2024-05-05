@@ -16,6 +16,12 @@ const AppFooter = () => {
         >
           Page Facebook
         </a>
+        <a
+          className="facebook-link"
+          href="https://www.instagram.com/l.occit.anerie"
+        >
+          Page Instagram
+        </a>
       </div>
     </div>
   );
