@@ -102,7 +102,7 @@ a {
   height: 100vh;
   object-fit: cover;
   object-position: center;
-  filter: brightness(50%);
+  filter: brightness(90%);
   @media screen and (max-width: 1024px) {
     object-position: left;
     object-fit: cover;
