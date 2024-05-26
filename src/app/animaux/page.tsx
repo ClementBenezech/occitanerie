@@ -31,10 +31,14 @@ export default function Page() {
         <div className="page-cover-image-text">
           <div className="standard-section-title">Découvrez nos animaux</div>
           <span className="cover-paragraph">
-            Ânes, Cochons, Poules et canards, Moutons, Boucs... et plus encore!
+            L’Occit’Ânerie s’engage dans la protection animale et a donc pris la
+            décision d’être une ferme zéro naissances : tous nos mâles (poilus)
+            sont castrés. Ils présentent donc un caractère doux et stable et
+            n’ont pas de forte odeur.
           </span>
           <span className="cover-paragraph">
-            Ils vous attendent, venez les découvrir :)
+            Petits et grands, à plumes ou à poils, sur deux ou quatre pattes...
+            Il y en a pour tous les goûts. Venez rencontrer tous nos animaux !!
           </span>
         </div>
       </div>

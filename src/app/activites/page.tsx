@@ -18,7 +18,8 @@ export default function Page() {
       <div className="activity-card" key={activity.name}>
         <div className="activity-card-title">{activity.name}</div>
         {Description}
-        <div className="activity-card-paragraph">{`${activity.when} ${activity.details} `}</div>
+        <div className="activity-card-paragraph">{`${activity.when}`}</div>
+        <div className="activity-card-paragraph">{`${activity.details} `}</div>
         {activity.image && (
           <Image className="activity-info-card" src={activity.image} alt="" />
         )}
