@@ -139,6 +139,10 @@ const AppFooter = () => {
             </svg>
             Instagram
           </a>
+          <a className="facebook-link" href="mailto:loccitanerie@gmail.com">
+            <p className="email-icon">@</p>
+            Ecrivez nous!
+          </a>
         </div>
       </div>
     </div>
