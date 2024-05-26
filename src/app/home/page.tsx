@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import homeImg from "../../images/homeDonkeys2.png";
 import donkeys from "../../images/tirelalangue.jpg";
-import farmMap from "../../images/plan-de-la-ferme.png";
+
 import styles from "./../page.module.css";
 import Image from "next/image";
 
@@ -65,8 +65,8 @@ export default function Home() {
         <div className="standard-paragraph black">
           Nous proposons de nombreuses activités autour des animaux, du
           maraîchage et du “travail” à la ferme en général. Différents ateliers
-          sont également proposés tous les mois, en fonction des saisons et de
-          ce que nous offre la ferme et la nature.
+          sont également proposés au fil des saisons, en fonction de ce que nous
+          offre la ferme et la nature environnante.
         </div>
         <div className="standard-paragraph black">
           Tout un panel de formules a été créé, pour différents effectifs de
@@ -86,12 +86,6 @@ export default function Home() {
           De nombreux espaces extérieurs et intérieurs ont été aménagés pour le
           confort des animaux... et le votre!
         </div>
-
-        <Image
-          className="standard-content-image"
-          src={farmMap}
-          alt="Un plan qui montre les différentes zones de la ferme pédagogique"
-        />
       </div>
     </main>
   );
