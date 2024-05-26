@@ -25,7 +25,7 @@ export default function Page() {
           frameBorder="0"
         ></iframe>
         <iframe
-          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLoccitanerie&tabs=timeline%2C%20events&width=500&height=900&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLoccitanerie&tabs=timeline%2C%20events&width=400&height=900&small_header=true&adapt_container_width=false&hide_cover=true&show_facepile=false&appId"
           width="400"
           height="900"
           style={{ border: "none", overflow: "hidden" }}
