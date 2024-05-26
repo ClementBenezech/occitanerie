@@ -121,7 +121,7 @@ a {
   margin-right: auto;
   background: rgba(0, 0, 0, 0.524);
   @media screen and (max-width: 1024px) {
-    height: 35vh;
+    height: 25vh;
   }
 }
 
@@ -141,7 +141,7 @@ a {
   width: 100%;
   color: white;
   font-family: mooli;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   text-align: justify;
   position: relative;
   top: -13vw;
@@ -274,23 +274,27 @@ a {
 }
 
 .site-logo {
-  width: 15vw;
-  height: 15vw;
+  width: 9vw;
+  height: 9vw;
   padding: 1vw;
   box-sizing: border-box;
   background: rgb(243, 255, 245, 0.95);
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   border: 2px solid rgb(22, 186, 90);
   border-bottom: 1px;
-  left: 3vw;
-  bottom: -5vw;
+  left: -1.5vw;
+  top: 1vh;
+  z-index: 100;
+
   box-shadow: 0 0 3px rgb(108, 108, 108);
   @media screen and (max-width: 1024px) {
     width: 20vw;
     height: 20vw;
     padding: 1vw;
-    position: unset;
+    position: absolute;
+    left: 45vw;
+    top: 10vh;
   }
 }
 
@@ -367,7 +371,7 @@ a {
 }
 
 .activity-card {
-  padding: 2vh 0;
+  padding: 4vh 2vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
