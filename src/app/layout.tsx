@@ -9,8 +9,23 @@ import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "L'occitanerie",
-  description: "Ferme pédagogique",
+  title: "L'occitanerie, ferme pédagogique",
+  description: "Ferme pédagogique aux portes de Toulouse",
+  openGraph: {
+    title: "L'occitanerie, ferme pédagogique",
+    description: "Ferme pédagogique aux portes de Toulouse",
+    url: "https://loccitanerie.fr",
+    siteName: "L'occitanerie",
+    images: [
+      {
+        url: "https://loccitanerie.fr/og-image.png", // Must be an absolute URL
+        width: 1200,
+        height: 600,
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
