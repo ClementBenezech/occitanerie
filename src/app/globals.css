@@ -354,10 +354,16 @@ a {
   width: 100%;
   padding-right: 80px;
   padding-left: 20px;
+  padding-top: 2vh;
   @media screen and (max-width: 1024px) {
     padding: unset;
     text-align: justify;
   }
+}
+
+.animal-card__description-paragraph {
+  padding: 2vh 0;
+  text-align: justify;
 }
 
 .activity-card {

@@ -5,91 +5,106 @@ import ouessant from "../../images/animals/ouessant.png";
 import poules from "../../images/animals/poules.png";
 export const AnimalsData = [
   {
-    name: "Noisette",
+    name: "Les ânes",
     age: "10",
     species: "Âne",
-    description:
-      "C’est le plus âgé des mâles, il a 10 ans. Formé à la randonnée dans son ancienne ferme, il est d’un tempérament très calme. Confiant en l’humain, il se laisse facilement manipuler.",
+    description: [
+      "Ils sont au nombre de 5. Les ânesses : Camille et Juju et les hongres : Noisette, Luigi et Safran. Trois d’entre eux sont issus de sauvetages.",
+      "Ils sont tous uniques dans leur genre : chacun a son histoire, son âge, son caractère, son pelage, sa taille...",
+      "L’âne est un animal supérieurement intelligent et d’une patience infinie qui accompagne l’Homme depuis des siècles.",
+      "Réputé têtu et de mauvais caractère, cet animal est, en réalité, bien plus conciliant et affectueux qu'il n'y parait. Mais il est aussi capable d'identifier certaines situations qui lui seraient inconfortables, désagréables ou dangereuses et il sait s'y opposer.",
+      "La relation à l’ autre est au cœur du fonctionnement de cet animal, ce qui est évidemment un atout pour le travail en thérapie et médiation asine car il nous rejoint au plus profond de notre être.",
+    ],
   },
+
   {
-    name: "Camille",
-    age: "12",
-    species: "Âne",
-    description:
-      "C’est la doyenne du troupeau, elle a 12 ans. Camille est arrivée des Pyrénées avec Noisette. Elle a son petit caractère mais reste toujours très douce et délicate avec les humains. Une fois le contact établi, elle adore être brossée et gratouillée.",
-  },
-  {
-    name: "Juju",
-    age: "4",
-    species: "Âne",
-    description:
-      "Juju est une jeune ânesse de 4 ans. Elle est arrivée en 2022 en compagnie de Luigi. Elle recherche beaucoup le contact physique avec les humains et peut facilement abandonner sa tête dans nos bras et fermer les yeux.",
-  },
-  {
-    name: "Luigi",
-    age: "8",
-    species: "Âne",
-    description:
-      "C’est le plus jeune du troupeau, il a deux ans. Du fait de son jeune âge, Luigi doit encore apprendre à se contrôler et à s’adapter à son public. Il est très gentil mais est encore un peu « bourrin » et invasif dans son approche.",
-  },
-  {
-    name: "Lulu",
+    name: "Les grands boucs",
     age: "???",
     species: "Bouc",
-    description:
-      "Nous avons recueilli ce grand bouc alpin car son propriétaire ne pouvait plus le garder. Précédemment retrouvé abandonné dans un champ, sans boucle, nous ne connaissons pas son âge. Il est très gentil mais socialement peu adapté. Il n’est pas prévu de le mettre en contact direct avec le public mais vous pourrez tout de même le caresser à travers la clôture.",
+    description: [
+      "Ils sont deux à partager le pré et les écuries avec les ânes.",
+      "Lulu, le bouc alpin, est arrivé chez nous en 2021, à l’âge de 4 ans. Ayant vécu deux abandons au cours de sa vie, il a trouvé, chez nous, sa maison pour la vie !",
+      "Yodalf, le bouc des Pyrénées, a été choisi pour tenir compagnie à Lulu, qui ne pouvait pas rester seul avec les ânes.",
+      "Ils ont tous les deux un caractère doux et calme... Même si Lulu est un peu bourrin dans sa manière de câliner et angoissé par moments, le travail que nous faisons avec lui commence à porter ses fruits.",
+    ],
     image: lulu,
   },
   {
-    name: "Yodalf",
+    name: "Les chèvres angoras",
     age: "2",
-    species: "Bouc",
-    description:
-      "Ce jeune bouc des Pyrénées est arrivé pour tenir compagnie à Lulu. Avec ses oreilles de Maître Yoda et sa barbe de Gandalf, il est très doux et aime beaucoup le contact avec l’humain. Si vous lui tournez le dos, préparez vous à servir de grattoir à tête !",
-    image: yodalf,
+    species: "Chevres",
+    description: [
+      "Venant d’un élevage du Larzac, ces petites chèvres aux allures de moutons ont été sélectionnés, par nos soins, pour leur douceur et leur calme. Nous offrons aussi une retraite au sein de notre ferme aux angoras réformées, quand les effectifs nous le permettent.",
+      "C’est avec leur toison, tondue deux fois par an, qu’on obtient le Mohair, une “laine” chaude et résistante.",
+    ],
+    image: laineux,
   },
   {
-    name: "Les boucs Angora",
+    name: "Les chèvres naines",
     age: "2",
-    species: "Bouc",
-    description:
-      "Choisis pour leur douceur et leur calme, ces petits boucs aux allures de moutons sont très en recherche de contact. Dés que vous entrez dans leur pré, ils arrivent et viennent se coller à vous en attente de gratouilles.",
+    species: "Chevres",
+    description: [
+      "Nous avons recueilli, fin 2023, un famille de chèvres naines : Billy et Betty, les parents et Avril, la fille.",
+      "Inapprochables à leur arrivée, la vie en troupeau et les contacts agréables réguliers avec les humains les ont beaucoup aidés à se sociabiliser. Le meilleur reste à venir !",
+    ],
     image: laineux,
   },
   {
     name: "Les Moutons d'Ouessant",
     age: "4",
     species: "Moutons",
-    description:
-      "Ce sont de tout petits moutons noirs. Les moutons sont en général beaucoup plus craintifs que les chèvres mais à force de patience (et de grains :-p ) vous aurez l’occasion de les gratouiller et palper leur épaisse toison.",
+    description: [
+      "Ils sont deux et ont été nos tout premiers animaux de la ferme à poils.",
+      "Les moutons sont beaucoup plus craintifs que les chèvres mais avec l’appel de l’estomac, vous aurez l’occasion de les approcher, les nourrir et peut-être leur voler une caresse.",
+      "Ils sont tondus deux fois par an, comme les angoras.",
+    ],
     image: ouessant,
-  },
-  {
-    name: "Les poules",
-    age: "4",
-    species: "Bah des poules quoi",
-    description:
-      "Elles partagent le pré avec les chèvres et moutons. Ici plusieurs races de poules cohabitent. Il y en a pour tous les goûts : toutes les tailles et toutes les couleurs.",
-    image: poules,
-  },
-  {
-    name: "Les canards coureurs indiens",
-    age: "4",
-    species: "Bah des canards du coup",
-    description:
-      "Ils ne volent pas. Vous pourrez les apercevoir sur l’étang ou en pleine chasse aux insectes dans la forêt ou les prés. C’est pour le plaisir des yeux car le canard est un animal très craintif mais vous aurez peut-être l’occasion de les approcher lors d’un nourrissage.",
   },
   {
     name: "Les cochons",
     age: "1",
     species: "Cochons",
-    description:
-      "Comme dans les contes, ils sont au nombre de trois. Ils vivent au sein du verger et nous entretiennent cet espace en broutant et mangeant les fruits tombés. Venez à la rencontre de cette race douce et affectueuse.",
+    description: [
+      "Nous avons recueilli cette fratrie au cours de l’été 2023. Comme dans les contes, ils sont au nombre de trois : deux sœurs (Flora et Frida) et un frère (Firmin).",
+      "Appartenant à la race KuneKune, ces petits cochons herbivores sont les agents d’entretien du verger dans lequel ils vivent. Ils poilus, hyper sociables et affectueux.",
+    ],
   },
   {
     name: "Les cochons d'inde",
     age: "1",
     species: "Des petits cochons qui viennent de la mer",
-    description: "Bla Blah Blah neuf neuf huuuuiiiiiiit huuuuuuuiiiit",
+    description: [
+      "Ils vivent dehors, à l’année, dans une grande volière sécurisée et aménagée pour leur confort. Ce sont tous des mâles issus sauvetages (abandons). Certains sont très sociables, d’autres plus réservés... De par leur comportement naturel, ils imposent une approche en douceur et dans le calme.",
+    ],
+  },
+  {
+    name: "Les volailles",
+    age: "4",
+    species: "Volaille",
+    description: [
+      "Elles vivent en totale liberté sur l’ensemble du site (sauf le potager).",
+      "Vous rencontrerez des poules de tailles et de couleurs variées et des canards : coureurs indiens et autres.",
+      "Vous aurez aussi l’occasion de découvrir des œufs de poules naturellement colorés et de faire des ateliers créatifs avec les œufs de canes.",
+    ],
+    image: poules,
+  },
+  {
+    name: "Mao le chat!",
+    age: "4",
+    species: "Chat",
+    description: [
+      "Mao a débarqué à la ferme fin 2023, à 5 mois environ, et ne nous a plus quitté.",
+      "Inapprochable les premiers jours, il est très vite devenu hyper sociable et très pot de colle.",
+      "Aujourd’hui, il suit avec plaisir les groupes qui viennent à la ferme pour se faire caresser et câliner.",
+    ],
+  },
+  {
+    name: "Les chiens",
+    age: "4",
+    species: "Chien",
+    description: [
+      "Tous les deux adoptés à la SPA du Ramier à Montauban, Fløki et Garou sont des chiens très sociables et, aujourd’hui, bien dans leurs patounes.",
+      "Beaucoup de personnes ont peur des chiens donc leur présence à la ferme n’est pas systématique.",
+    ],
   },
 ];

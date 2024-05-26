@@ -2,15 +2,13 @@ const AppFooter = () => {
   return (
     <div className="footer">
       <div className="footer-container">
-        <p>Occitanerie</p>
-        <p>Ferme pédagogique</p>
+        <p>Ferme pédagogique L’Occit’Ânerie</p>
+        <p>Association loi 1901</p>
         <p>31340 le born</p>
         <p>06.71.25.00.21</p>
+        <p>SIRET: 897 734 919 00029</p>
       </div>
       <div className="footer-container">
-        <p>Association loi 1901</p>
-        <p>SIRET: 897 734 919 00029</p>
-
         <div className="social-networks">
           <a
             className="facebook-link"
