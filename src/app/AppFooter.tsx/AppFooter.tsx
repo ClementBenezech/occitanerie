@@ -143,6 +143,9 @@ const AppFooter = () => {
           </a>
         </div>
       </div>
+      {/*<a href="https://www.flaticon.com/free-icons/donkey" title="donkey icons">
+        Favicon created by Freepik - Flaticon
+  </a>*/}
     </div>
   );
 };
