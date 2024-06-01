@@ -123,9 +123,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   background: rgba(0, 0, 0, 0.524);
-  @media screen and (max-width: 1024px) {
-    height: 25vh;
-  }
 }
 
 .title-container {
