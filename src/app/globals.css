@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+html {
+  height: 100%;
+}
+
 html,
 body {
   max-width: 100vw;
@@ -99,10 +103,11 @@ a {
 
 .page-cover-image {
   width: 100vw;
-  height: 100vh;
+  height: 100svh;
   object-fit: cover;
   object-position: center;
   filter: brightness(90%);
+  position: relative;
   @media screen and (max-width: 1024px) {
     object-fit: cover;
   }
