@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import styles from "../page.module.css";
-import animals from "../../images/animals.jpg";
+import activitiesPicture from "../../images/activites.jpg";
 import Image from "next/image";
 import { activities } from "@/content/activities/activities";
 import { Activity } from "@/content/activities/activities";
@@ -31,23 +31,12 @@ export default function Page() {
     <main className={styles.main}>
       <Image
         className="page-cover-image"
-        src={animals}
-        alt="Des bons gros farmers"
+        src={activitiesPicture}
+        alt="Une photo montrant des enfants à la ferme"
       />
+      <div className="standard-section-title">Des activités pour tous!</div>
       <div className="title-container">
-        <svg
-          className="cover-text-background"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320"
-        >
-          <path
-            fill="#000000ac"
-            fill-opacity="0.8"
-            d="M0,160L120,138.7C240,117,480,75,720,85.3C960,96,1200,160,1320,192L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-          ></path>
-        </svg>
         <div className="page-cover-image-text">
-          <div className="standard-section-title">Des activités pour tous!</div>
           <span className="cover-paragraph">
             Notre objectif premier est de mettre en lien les visiteurs avec les
             animaux de la ferme mais aussi les végétaux grâce à la serre, au

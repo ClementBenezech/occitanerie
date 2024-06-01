@@ -1,8 +1,13 @@
-import yodalf from "../../images/animals/yodalf.png";
-import lulu from "../../images/animals/lulu.png";
+import anes from "../../images/animals/anes.jpg";
+import cochons from "../../images/animals/cochons.jpg";
+import cochonsInde from "../../images/animals/cochonsInde.jpg";
+import mao from "../../images/animals/mao.jpg";
+import luluEtYodalf from "../../images/animals/luluEtYodalf.jpg";
 import laineux from "../../images/animals/laineux.png";
-import ouessant from "../../images/animals/ouessant.png";
+import ouessant from "../../images/animals/ouessant.jpg";
 import poules from "../../images/animals/poules.png";
+import chevres from "../../images/animals/chevreNaine.jpg";
+import chiens from "../../images/animals/chiens.jpg";
 export const AnimalsData = [
   {
     name: "Les ânes",
@@ -15,6 +20,7 @@ export const AnimalsData = [
       "Réputé têtu et de mauvais caractère, cet animal est, en réalité, bien plus conciliant et affectueux qu'il n'y parait. Mais il est aussi capable d'identifier certaines situations qui lui seraient inconfortables, désagréables ou dangereuses et il sait s'y opposer.",
       "La relation à l’ autre est au cœur du fonctionnement de cet animal, ce qui est évidemment un atout pour le travail en thérapie et médiation asine car il nous rejoint au plus profond de notre être.",
     ],
+    image: anes,
   },
 
   {
@@ -27,7 +33,7 @@ export const AnimalsData = [
       "Yodalf, le bouc des Pyrénées, a été choisi pour tenir compagnie à Lulu, qui ne pouvait pas rester seul avec les ânes.",
       "Ils ont tous les deux un caractère doux et calme... Même si Lulu est un peu bourrin dans sa manière de câliner et angoissé par moments, le travail que nous faisons avec lui commence à porter ses fruits.",
     ],
-    image: lulu,
+    image: luluEtYodalf,
   },
   {
     name: "Les chèvres angoras",
@@ -47,7 +53,7 @@ export const AnimalsData = [
       "Nous avons recueilli, fin 2023, un famille de chèvres naines : Billy et Betty, les parents et Avril, la fille.",
       "Inapprochables à leur arrivée, la vie en troupeau et les contacts agréables réguliers avec les humains les ont beaucoup aidés à se sociabiliser. Le meilleur reste à venir !",
     ],
-    image: laineux,
+    image: chevres,
   },
   {
     name: "Les Moutons d'Ouessant",
@@ -68,6 +74,7 @@ export const AnimalsData = [
       "Nous avons recueilli cette fratrie au cours de l’été 2023. Comme dans les contes, ils sont au nombre de trois : deux sœurs (Flora et Frida) et un frère (Firmin).",
       "Appartenant à la race KuneKune, ces petits cochons herbivores sont les agents d’entretien du verger dans lequel ils vivent. Ils poilus, hyper sociables et affectueux.",
     ],
+    image: cochons,
   },
   {
     name: "Les cochons d'inde",
@@ -76,6 +83,7 @@ export const AnimalsData = [
     description: [
       "Ils vivent dehors, à l’année, dans une grande volière sécurisée et aménagée pour leur confort. Ce sont tous des mâles issus sauvetages (abandons). Certains sont très sociables, d’autres plus réservés... De par leur comportement naturel, ils imposent une approche en douceur et dans le calme.",
     ],
+    image: cochonsInde,
   },
   {
     name: "Les volailles",
@@ -97,6 +105,7 @@ export const AnimalsData = [
       "Inapprochable les premiers jours, il est très vite devenu hyper sociable et très pot de colle.",
       "Aujourd’hui, il suit avec plaisir les groupes qui viennent à la ferme pour se faire caresser et câliner.",
     ],
+    image: mao,
   },
   {
     name: "Les chiens",
@@ -106,5 +115,6 @@ export const AnimalsData = [
       "Tous les deux adoptés à la SPA du Ramier à Montauban, Fløki et Garou sont des chiens très sociables et, aujourd’hui, bien dans leurs patounes.",
       "Beaucoup de personnes ont peur des chiens donc leur présence à la ferme n’est pas systématique.",
     ],
+    image: chiens,
   },
 ];
