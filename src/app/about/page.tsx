@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <main className={styles.main}>
       <Image
-        className="page-cover-image"
+        className="page-cover-image page-cover-position-right"
         src={background}
         alt="Des bons gros farmers"
       />

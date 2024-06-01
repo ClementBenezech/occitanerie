@@ -108,6 +108,10 @@ a {
   }
 }
 
+.page-cover-position-right {
+  object-position: right;
+}
+
 .page-cover-image-text {
   height: 100%;
   padding: 16px;
