@@ -101,6 +101,11 @@ a {
   font-size: 20px;
 }
 
+.app-footer__icon {
+  font-size: 3vw;
+  color: rgb(22, 186, 90);
+}
+
 .page-cover-image {
   width: 100vw;
   height: 100svh;
@@ -439,9 +444,9 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: rgb(0, 124, 225);
+  color: rgb(235, 235, 235);
   &:hover {
-    color: rgb(0, 124, 225);
+    color: rgb(230, 230, 230);
   }
 }
 
