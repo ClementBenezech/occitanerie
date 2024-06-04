@@ -31,7 +31,7 @@ export default function Page() {
           </span>
         </div>
       </div>
-      {AnimalCards}
+      <div className="animal-cards-container">{AnimalCards}</div>
     </main>
   );
 }
