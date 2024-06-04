@@ -94,6 +94,9 @@ a {
     border: 2px solid rgb(22, 186, 90);
     padding: 2vw;
     border-radius: 50%;
+    color: rgb(22, 186, 90);
+    background: white;
+    cursor: pointer;
   }
 }
 
@@ -146,7 +149,6 @@ a {
   height: 100svh;
   object-fit: cover;
   object-position: center;
-  filter: brightness(90%);
   position: relative;
   @media screen and (max-width: 1024px) {
     object-fit: cover;
