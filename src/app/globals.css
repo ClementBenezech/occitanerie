@@ -519,6 +519,7 @@ a {
   align-items: center;
   color: rgb(235, 235, 235);
   width: 25%;
+  gap: 1.5vw;
   &:hover {
     color: rgb(230, 230, 230);
     width: 25%;
