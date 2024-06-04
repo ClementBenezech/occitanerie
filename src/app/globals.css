@@ -198,7 +198,7 @@ a {
   position: relative;
 
   @media screen and (max-width: 1024px) {
-    font-size: 3.5vw;
+    font-size: 4vw;
     padding: 2vw 1vw;
   }
 }
@@ -404,15 +404,14 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 8px;
   text-align: center;
   background: rgb(22, 186, 90);
   width: 100%;
   position: relative;
   left: -80px;
-  height: 36px;
-  line-height: 20px;
-  font-size: 20px;
+  height: 3.2vw;
+  line-height: 2.8vw;
+  font-size: 2.8vw;
   top: 20px;
   border-radius: 8px;
   font-family: caveat;
@@ -420,19 +419,21 @@ a {
   @media screen and (max-width: 1024px) {
     position: unset;
     background: unset;
+    font-size: 7vw;
+    padding: 5vw 0;
   }
 }
 
 .animal-card__description {
   width: 100%;
   padding-right: 80px;
-  padding-left: 20px;
-  padding-top: 2vh;
+  padding-left: 3vw;
+  padding-top: 3vw;
   font-size: 1.7vw;
   @media screen and (max-width: 1024px) {
     padding: unset;
     text-align: justify;
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 
