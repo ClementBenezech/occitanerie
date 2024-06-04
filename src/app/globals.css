@@ -86,11 +86,14 @@ a {
   @media screen and (max-width: 1024px) {
     display: block;
     font-size: 3vw;
-    height: 5vw;
-    width: 5vw;
+    height: 8vw;
+    width: 8vw;
     position: absolute;
     top: 3vh;
-    left: 5vw;
+    right: 5vw;
+    border: 2px solid rgb(22, 186, 90);
+    padding: 2vw;
+    border-radius: 50%;
   }
 }
 
@@ -343,12 +346,12 @@ a {
 
   box-shadow: 0 0 3px rgb(108, 108, 108);
   @media screen and (max-width: 1024px) {
-    width: 25vw;
-    height: 25vw;
+    width: 40vw;
+    height: 40vw;
     padding: 1vw;
     position: absolute;
-    right: -3.5vw;
-    left: unset;
+
+    left: -5.5vw;
     top: -3vh;
   }
 }
