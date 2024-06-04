@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 import AppFooter from "./AppFooter.tsx/AppFooter";
 import logo from "../images/logo.png";
 import Image from "next/image";
-
+import { GoogleAnalytics } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -48,6 +48,7 @@ export default function RootLayout({
         {children}
         <AppFooter />
       </body>
+      <GoogleAnalytics gaId="G-W4F3DR00HV"></GoogleAnalytics>
     </html>
   );
 }
