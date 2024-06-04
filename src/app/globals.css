@@ -88,7 +88,7 @@ a {
     font-size: 3vw;
     height: 8vw;
     width: 8vw;
-    position: absolute;
+    position: fixed;
     top: 3vh;
     right: 5vw;
     border: 2px solid rgb(22, 186, 90);
@@ -235,6 +235,7 @@ a {
   left: 0%;
   @media screen and (max-width: 1024px) {
     font-size: 30px;
+    top: 25%;
   }
 }
 
