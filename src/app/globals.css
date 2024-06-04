@@ -106,6 +106,7 @@ a {
   transition: color 300ms;
   transition: transform 200ms;
   font-family: caveat;
+  user-select: none;
   &:hover {
     /*color: rgb(1, 179, 75);*/
     text-shadow: 1px 1px rgb(23, 181, 12);
@@ -116,16 +117,22 @@ a {
     width: 100vw;
     color: rgb(22, 186, 90);
     display: flex;
+    justify-content: flex-start;
     font-size: 4vw;
     line-height: 4vw;
     text-align: center;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
     font-size: 7vw;
+    gap: 5vw;
+    padding: 0 25vw;
     &:hover {
       transform: none;
       text-shadow: none;
+    }
+    &:active {
+      transform: scale(1.1);
+      color: rgb(236, 221, 0);
     }
   }
 }
@@ -251,7 +258,7 @@ a {
 
 .mobile-menu-container {
   height: 0;
-  background: white;
+  background: rgb(246, 246, 246);
   position: fixed;
   bottom: 0;
   left: 0;
@@ -285,12 +292,14 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
   padding: 24px;
   padding-left: 10vw;
 
   @media screen and (max-width: 1024px) {
     width: fit-content;
     padding: 0;
+    align-items: center;
   }
   & > * {
     text-align: center;

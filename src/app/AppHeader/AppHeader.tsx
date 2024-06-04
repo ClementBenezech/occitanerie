@@ -1,7 +1,13 @@
 "use client";
 
 /* eslint-disable react/no-unescaped-entities */
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faHorse,
+  faLeaf,
+  faHouseChimneyWindow,
+  faCircleInfo,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useState } from "react";
@@ -13,6 +19,12 @@ export const AppHeader = () => {
     setIsMobilemenuOpen(!isMobileMenuOpen);
   };
 
+  const delayedToggleMenu = () => {
+    setTimeout(() => {
+      setIsMobilemenuOpen(!isMobileMenuOpen);
+    }, 100);
+  };
+
   return (
     <header className="app-header">
       <FontAwesomeIcon
@@ -21,18 +33,21 @@ export const AppHeader = () => {
         className="mobile-menu-trigger-icon"
       />
       {isMobileMenuOpen && (
-        <div className="mobile-menu-container" onClick={() => toggleMenu()}>
+        <div
+          className="mobile-menu-container"
+          onClick={() => delayedToggleMenu()}
+        >
           <Link className="menu-item" href="/home">
-            Home
+            <FontAwesomeIcon icon={faHouseChimneyWindow}></FontAwesomeIcon>Home
           </Link>
           <Link className="menu-item" href="/activites">
-            Nos activités
+            <FontAwesomeIcon icon={faLeaf}></FontAwesomeIcon>Nos activités
           </Link>
           <Link className="menu-item" href="/animaux">
-            Les animaux
+            <FontAwesomeIcon icon={faHorse}></FontAwesomeIcon>Les animaux
           </Link>
           <Link className="menu-item" href="/about">
-            A propos
+            <FontAwesomeIcon icon={faCircleInfo}></FontAwesomeIcon>A propos
           </Link>
         </div>
       )}
