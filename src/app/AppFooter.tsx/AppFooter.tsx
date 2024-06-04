@@ -32,8 +32,12 @@ const AppFooter = () => {
             <FontAwesomeIcon className="app-footer__icon" icon={faAt} />
             Ecrivez nous!
           </a>
+          <a className="creditsLink" href="https://clementbenezech.vercel.app/">
+            Design & developpement: Clement Benezech
+          </a>
         </div>
       </div>
+
       {/*<a href="https://www.flaticon.com/free-icons/donkey" title="donkey icons">
         Favicon created by Freepik - Flaticon
   </a>*/}
