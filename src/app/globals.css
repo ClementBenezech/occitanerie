@@ -468,4 +468,5 @@ a {
   height: 10vh;
   margin-top: 3vh;
   justify-content: space-evenly;
+  gap: 3vw;
 }
