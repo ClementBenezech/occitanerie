@@ -151,7 +151,7 @@ a {
 }
 
 .app-footer__icon {
-  font-size: 7vw;
+  font-size: 3vw;
   color: rgb(22, 186, 90);
 }
 
@@ -181,6 +181,19 @@ a {
   margin-left: auto;
   margin-right: auto;
   background: rgba(0, 0, 0, 0.524);
+
+  overflow: visible;
+  &::after {
+    content: "";
+    background-color: black;
+    background: url("/wave.svg");
+    width: 100vw;
+    height: 100px;
+    padding: 0;
+    position: absolute;
+    top: -100px;
+    left: 0;
+  }
 }
 
 .title-container {
@@ -192,7 +205,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  overflow: hidden;
 }
 
 .cover-paragraph {
