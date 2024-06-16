@@ -9,6 +9,43 @@
   }
 }
 
+@keyframes hover {
+  0% {
+    transform: translate(0, 1vh);
+  }
+  25% {
+    transform: translate(1vh, 0);
+  }
+  50% {
+    transform: translate(0, -1vh);
+  }
+  75% {
+    transform: translate(-1vh, 0);
+  }
+  100% {
+    transform: translate(0, 1vh);
+  }
+}
+
+@keyframes reveal {
+  0% {
+    color: white;
+    left: -100vw;
+  }
+  70% {
+    color: white;
+    left: 0vw;
+  }
+  75% {
+    color: rgba(82, 239, 79, 0.685);
+    left: 0vw;
+  }
+  100% {
+    color: rgb(238, 255, 234);
+    left: 0vw;
+  }
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -243,7 +280,7 @@ a {
 
 .standard-section-title {
   color: white;
-  width: 100%;
+  width: 100vw;
   padding: 4px;
   text-align: center;
   font-size: 50px;
@@ -251,7 +288,13 @@ a {
   position: relative;
   position: absolute;
   top: 40%;
-  left: 0%;
+  left: -100vw;
+  height: 0;
+  animation: reveal 600ms ease-out 1s forwards, hover 30s ease-in-out infinite;
+  overflow: hidden;
+  height: 10%;
+  white-space: nowrap;
+
   @media screen and (max-width: 1024px) {
     font-size: 30px;
     top: 25%;
