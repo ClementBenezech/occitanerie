@@ -13,13 +13,12 @@ export default function Home() {
         src={homeImg}
         alt="Une vue aérienne d'une ferme"
       />
-      <div className="standard-section-title">Bienvenue à la ferme!</div>
+      <div className="standard-section-title">
+        L’Occit’Ânerie est une ferme pédagogique située sur la commune de Le
+        Born, dans les coteaux de Villemur-sur-Tarn.
+      </div>
       <div className="title-container">
         <div className="page-cover-image-text">
-          <span className="cover-paragraph">
-            L’Occit’Ânerie est une ferme pédagogique située sur la commune de Le
-            Born, dans les coteaux de Villemur-sur-Tarn.
-          </span>
           <span className="cover-paragraph">
             Venez découvrir ce lieu privilégié, prendre le temps d’écouter notre
             belle nature, loin des bruits de la route et des villes. Vous

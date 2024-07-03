@@ -27,6 +27,24 @@
   }
 }
 
+@keyframes hoversubtle {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, 0.3vh);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  75% {
+    transform: translate(0, -0.3vh);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
 @keyframes reveal {
   0% {
     color: white;
@@ -92,10 +110,10 @@ a {
 
 .app-header {
   width: 100vw;
-  min-height: 10vh;
-  background: rgba(0, 0, 0, 0.3);
+  min-height: max-content;
+  /* background: rgba(0, 83, 87, 0.62); */
   position: absolute;
-  top: 2vw;
+  /* top: 2vw; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -122,6 +140,7 @@ a {
 .mobile-menu-trigger-icon {
   display: none;
   @media screen and (max-width: 1024px) {
+    padding: 2vw;
     display: block;
     font-size: 3vw;
     height: 8vw;
@@ -139,14 +158,42 @@ a {
 }
 
 .menu-item {
-  width: 15vw;
+  width: 12vw;
+  height: 12vw;
   transition: color 300ms;
   transition: transform 200ms;
   font-family: caveat;
   user-select: none;
+  background: url("/cloud.svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(3, 44, 0);
+  font-size: 1.6vw;
+  animation: hoversubtle 8s ease-in-out infinite;
+  &:nth-child(1) {
+    background: url("/cloud2.svg");
+  }
+  &:nth-child(2) {
+    position: relative;
+    /* top: -1vw; */
+    animation: hoversubtle 8s ease-in-out 1s infinite;
+  }
+  &:nth-child(3) {
+    position: relative;
+    /* top: 1vw; */
+    animation: hoversubtle 8s ease-in-out 2s infinite;
+  }
+  &:nth-child(4) {
+    background: url("/cloud2.svg");
+    animation: hoversubtle 8s ease-in-out 3s infinite;
+  }
   &:hover {
     /*color: rgb(1, 179, 75);*/
-    text-shadow: 1px 1px rgb(23, 181, 12);
+    /* text-shadow: 1px 1px rgb(23, 181, 12); */
+    color: rgb(22, 186, 90);
     transform: scale(1.1);
   }
 
@@ -161,8 +208,16 @@ a {
     flex-wrap: wrap;
     align-items: center;
     font-size: 7vw;
+    height: 9vw;
     gap: 5vw;
     padding: 0 25vw;
+    background: transparent;
+    &:nth-child(1) {
+      background: transparent;
+    }
+    &:nth-child(4) {
+      background: transparent;
+    }
     &:hover {
       transform: none;
       text-shadow: none;
@@ -212,13 +267,14 @@ a {
   padding: 16px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   font-weight: 500;
   font-family: caveat;
   margin-left: auto;
   margin-right: auto;
-  background: rgba(0, 0, 0, 0.524);
-
+  background: rgba(255, 255, 255, 1);
+  gap: 2vw;
   overflow: visible;
   &::after {
     content: "";
@@ -226,6 +282,17 @@ a {
     background: url("/wave.svg");
     width: 100vw;
     height: 100px;
+    padding: 0;
+    position: absolute;
+    top: -90px;
+    left: 0;
+  }
+  &::before {
+    content: "";
+    background-color: black;
+    background: url("/waveoutline.svg");
+    width: 100vw;
+    height: 110px;
     padding: 0;
     position: absolute;
     top: -100px;
@@ -246,13 +313,14 @@ a {
 
 .cover-paragraph {
   padding: 12px 1vw;
-  width: 100%;
-  color: white;
+  max-width: 100%;
+  color: rgb(1, 43, 0);
   font-family: mooli;
   font-size: 1.3vw;
   text-align: justify;
   position: relative;
-
+  display: inline-block;
+  border-radius: 0.3vw;
   @media screen and (max-width: 1024px) {
     font-size: 4vw;
     padding: 2vw 1vw;
@@ -279,11 +347,11 @@ a {
 }
 
 .standard-section-title {
-  color: white;
+  color: rgb(255, 255, 255) !important;
   width: 100vw;
-  padding: 4px;
+  padding: 4px 15vw;
   text-align: center;
-  font-size: 50px;
+  font-size: 3vw;
   font-family: caveat;
   position: relative;
   position: absolute;
@@ -292,8 +360,7 @@ a {
   height: 0;
   animation: reveal 600ms ease-out 1s forwards, hover 30s ease-in-out infinite;
   overflow: hidden;
-  height: 10%;
-  white-space: nowrap;
+  height: auto;
 
   @media screen and (max-width: 1024px) {
     font-size: 30px;
@@ -302,7 +369,8 @@ a {
 }
 
 .menu-container {
-  width: 76vw;
+  width: 90vw;
+  height: 12vw;
   display: flex;
   justify-content: space-evenly;
   text-align: center;
@@ -320,6 +388,7 @@ a {
   right: 0;
   display: flex;
   flex-direction: row;
+  align-items: center;
   flex-wrap: wrap;
   animation: 300ms forwards ease-out slide-up;
 }
@@ -392,7 +461,8 @@ a {
   align-items: center;
   padding: 6vw 20vw;
   gap: 32px;
-  margin: 5vw 0;
+  background: url("/mainbackground.svg");
+  background-size: cover;
   @media screen and (max-width: 1024px) {
     padding: 24px 5vw;
   }
@@ -406,8 +476,8 @@ a {
 }
 
 .site-logo {
-  width: 9vw;
-  height: 9vw;
+  width: 12vw;
+  height: 12vw;
   padding: 1vw;
   box-sizing: border-box;
   background: rgb(243, 255, 245, 0.95);

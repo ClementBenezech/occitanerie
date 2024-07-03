@@ -39,7 +39,10 @@ export default function Page() {
         src={animals}
         alt="Une vue aérienne d'une ferme"
       />
-      <div className="standard-section-title">Découvrez nos animaux</div>
+      <div className="standard-section-title">
+        Petits et grands, à plumes ou à poils, sur deux ou quatre pattes... Il y
+        en a pour tous les goûts. Venez rencontrer tous nos animaux !!
+      </div>
       <div className="title-container">
         <div className="page-cover-image-text">
           <span className="cover-paragraph">
@@ -47,10 +50,6 @@ export default function Page() {
             décision d’être une ferme zéro naissances : tous nos mâles (poilus)
             sont castrés. Ils présentent donc un caractère doux et stable et
             n’ont pas de forte odeur.
-          </span>
-          <span className="cover-paragraph">
-            Petits et grands, à plumes ou à poils, sur deux ou quatre pattes...
-            Il y en a pour tous les goûts. Venez rencontrer tous nos animaux !!
           </span>
         </div>
       </div>
