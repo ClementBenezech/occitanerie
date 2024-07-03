@@ -5,6 +5,29 @@ import Image from "next/image";
 import { AnimalsData } from "@/content/animals/animals";
 import AnimalCard from "./AnimalCard";
 
+export const metadata = {
+  title: "L'occitanerie, ferme pédagogique",
+  description: "Decouvrez nos animaux",
+  openGraph: {
+    title: "L'occitanerie",
+    description: "Decouvrez nos animaux",
+    url: "https://loccitanerie.fr/animaux",
+    siteName: "L'occitanerie",
+    images: [
+      {
+        url: "https://loccitanerie.fr/og-image.png", // Must be an absolute URL
+        width: 1200,
+        height: 600,
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+  },
+  other: {
+    "google-site-verification": "buunzNLCVGPGAMKr0WT0oi_YDPlUMBzJ7CdCj9l9E7E",
+  },
+};
+
 export default function Page() {
   const AnimalCards = AnimalsData.map((animal) => {
     return <AnimalCard key={animal.name} {...animal} />;

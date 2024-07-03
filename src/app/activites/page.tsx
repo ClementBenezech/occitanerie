@@ -5,6 +5,29 @@ import Image from "next/image";
 import { activities } from "@/content/activities/activities";
 import { Activity } from "@/content/activities/activities";
 
+export const metadata = {
+  title: "L'occitanerie, ferme pédagogique",
+  description: "Nos activités",
+  openGraph: {
+    title: "L'occitanerie",
+    description: "Activités à la ferme",
+    url: "https://loccitanerie.fr/activites",
+    siteName: "L'occitanerie",
+    images: [
+      {
+        url: "https://loccitanerie.fr/og-image.png", // Must be an absolute URL
+        width: 1200,
+        height: 600,
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+  },
+  other: {
+    "google-site-verification": "buunzNLCVGPGAMKr0WT0oi_YDPlUMBzJ7CdCj9l9E7E",
+  },
+};
+
 export default function Page() {
   const ActivitiesCards = activities.map((activity: Activity) => {
     const Description = activity.description.map((paragraph) => {

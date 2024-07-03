@@ -4,6 +4,29 @@ import background from "../../images/about.jpg";
 import Image from "next/image";
 import farmMap from "../../images/plan-de-la-ferme.png";
 
+export const metadata = {
+  title: "L'occitanerie, ferme pédagogique",
+  description: "Informations",
+  openGraph: {
+    title: "L'occitanerie",
+    description: "Informations utiles",
+    url: "https://loccitanerie.fr/about",
+    siteName: "L'occitanerie",
+    images: [
+      {
+        url: "https://loccitanerie.fr/og-image.png", // Must be an absolute URL
+        width: 1200,
+        height: 600,
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+  },
+  other: {
+    "google-site-verification": "buunzNLCVGPGAMKr0WT0oi_YDPlUMBzJ7CdCj9l9E7E",
+  },
+};
+
 export default function Page() {
   return (
     <main className={styles.main}>
