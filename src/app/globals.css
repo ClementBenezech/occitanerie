@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&family=Mooli&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&family=Indie+Flower&family=Mooli&family=Nunito&display=swap");
 @keyframes slide-up {
   0% {
     height: 0;
@@ -251,7 +250,7 @@ a {
   width: 100vw;
   height: 100svh;
   object-fit: cover;
-  object-position: center;
+  object-position: 20% 70%;
   position: relative;
   @media screen and (max-width: 1024px) {
     object-fit: cover;
@@ -347,26 +346,27 @@ a {
 }
 
 .standard-section-title {
-  color: rgb(255, 255, 255) !important;
+  color: rgb(0, 29, 12) !important;
   width: 100vw;
-  padding: 4px 15vw;
+  padding: 4px 10vw;
   text-align: center;
-  font-size: 3vw;
-  font-family: caveat;
+  font-size: 2.5vw;
+  font-family: "Indie Flower";
   position: relative;
   position: absolute;
   top: 40%;
   left: -100vw;
   height: 0;
-  animation: reveal 600ms ease-out 1s forwards, hover 30s ease-in-out infinite;
+  animation: reveal 600ms ease-out 1s forwards;
   overflow: hidden;
   height: auto;
-  text-shadow: 2px 2px 2px rgb(25, 25, 25);
-  background: rgba(255, 255, 255, 0.182);
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.586);
 
   @media screen and (max-width: 1024px) {
-    font-size: 30px;
-    top: 25%;
+    font-size: 3vh;
+    top: 30%;
   }
 }
 
