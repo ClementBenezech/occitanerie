@@ -279,22 +279,28 @@ a {
     content: "";
     background-color: black;
     background: url("/wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100vw;
-    height: 100px;
+    height: 150px;
     padding: 0;
     position: absolute;
-    top: -90px;
+    top: -130px;
     left: 0;
   }
   &::before {
     content: "";
     background-color: black;
     background: url("/waveoutline.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100vw;
-    height: 110px;
+    height: 150px;
     padding: 0;
     position: absolute;
-    top: -100px;
+    top: -140px;
     left: 0;
   }
 }
