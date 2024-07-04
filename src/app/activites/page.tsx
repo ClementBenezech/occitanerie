@@ -1,14 +1,11 @@
-"use client";
-
 /* eslint-disable react/no-unescaped-entities */
 import styles from "../page.module.css";
 import activitiesPicture from "../../images/activites.jpg";
 import Image from "next/image";
 import { activities } from "@/content/activities/activities";
 import { Activity } from "@/content/activities/activities";
-import { Fade, Flip, Hinge, Slide } from "react-awesome-reveal";
 
-const metadata = {
+export const metadata = {
   title: "L'occitanerie, ferme pédagogique - Activités",
   description: "Nos activités",
   openGraph: {
@@ -41,17 +38,15 @@ export default function Page() {
       );
     });
     return (
-      <Fade delay={100} key={activity.name} triggerOnce>
-        <div className="activity-card" key={activity.name}>
-          <div className="activity-card-title">{activity.name}</div>
-          {Description}
-          <div className="activity-card-paragraph">{`${activity.when}`}</div>
-          <div className="activity-card-paragraph">{`${activity.details} `}</div>
-          {activity.image && (
-            <Image className="activity-info-card" src={activity.image} alt="" />
-          )}
-        </div>
-      </Fade>
+      <div className="activity-card" key={activity.name}>
+        <div className="activity-card-title">{activity.name}</div>
+        {Description}
+        <div className="activity-card-paragraph">{`${activity.when}`}</div>
+        <div className="activity-card-paragraph">{`${activity.details} `}</div>
+        {activity.image && (
+          <Image className="activity-info-card" src={activity.image} alt="" />
+        )}
+      </div>
     );
   });
 
