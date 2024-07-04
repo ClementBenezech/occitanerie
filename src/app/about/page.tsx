@@ -34,6 +34,7 @@ export default function Page() {
         className="page-cover-image page-cover-position-right"
         src={background}
         alt="Des bons gros farmers"
+        placeholder="blur"
       />
       <div className="standard-section-title">Informations</div>
       <div className="title-container">
