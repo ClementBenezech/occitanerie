@@ -15,7 +15,7 @@ export const metadata = {
     siteName: "L'occitanerie",
     images: [
       {
-        url: "https://loccitanerie.fr/og-image.png", // Must be an absolute URL
+        url: "https://loccitanerie.fr/og-image.jpg", // Must be an absolute URL
         width: 1200,
         height: 600,
       },
