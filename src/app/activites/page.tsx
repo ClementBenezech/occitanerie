@@ -9,7 +9,7 @@ import { Activity } from "@/content/activities/activities";
 import { Fade, Flip, Hinge, Slide } from "react-awesome-reveal";
 
 const metadata = {
-  title: "L'occitanerie, ferme pédagogique",
+  title: "L'occitanerie, ferme pédagogique - Activités",
   description: "Nos activités",
   openGraph: {
     title: "L'occitanerie",

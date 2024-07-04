@@ -6,7 +6,7 @@ import { AnimalsData } from "@/content/animals/animals";
 import AnimalCard from "./AnimalCard";
 
 export const metadata = {
-  title: "L'occitanerie, ferme pédagogique",
+  title: "L'occitanerie, ferme pédagogique - Nos Animaux",
   description: "Decouvrez nos animaux",
   openGraph: {
     title: "L'occitanerie",
