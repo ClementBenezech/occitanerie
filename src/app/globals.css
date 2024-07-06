@@ -200,6 +200,7 @@ a {
   }
 
   @media screen and (max-width: 1024px) {
+    filter: none;
     width: 100vw;
     color: rgb(22, 186, 90);
     display: flex;
