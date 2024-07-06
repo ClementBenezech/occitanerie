@@ -258,6 +258,7 @@ a {
   position: relative;
   @media screen and (max-width: 1024px) {
     object-fit: cover;
+    object-position: 70%;
   }
 }
 
@@ -377,10 +378,9 @@ a {
 
   @media screen and (max-width: 1024px) {
     font-size: 2.5vh;
-    top: 30%;
+    top: 20%;
     width: 100vw;
     border-radius: 0;
-    top: 35%;
     left: -100vw;
   }
 }
