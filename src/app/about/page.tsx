@@ -36,13 +36,12 @@ export default function Page() {
         alt="Des bons gros farmers"
         placeholder="blur"
       />
-      <div className="standard-section-title">Informations</div>
+      <div className="standard-section-title">
+        Sur cette page, vous retrouverez le plan de la ferme, ainsi que nos flux
+        Facebook et Instagram!
+      </div>
       <div className="title-container">
         <div className="page-cover-image-text">
-          <span className="cover-paragraph">
-            Sur cette page, vous retrouverez le plan de la ferme, ainsi que nos
-            flux Facebook et Instagram!
-          </span>
           <span className="cover-paragraph">
             Pensez à nous suivre pour ne rien rater de notre actualité et des
             évènements à venir!
