@@ -73,7 +73,7 @@ export default function Page() {
           </span>
         </div>
       </div>
-      {ActivitiesCards}
+      <div className="activity-cards">{ActivitiesCards}</div>
     </main>
   );
 }

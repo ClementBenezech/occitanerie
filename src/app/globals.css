@@ -416,8 +416,8 @@ a {
   background-color: rgb(245, 245, 245);
   padding: 16px;
   font-family: caveat;
-  background-color: rgb(41, 41, 41);
-  color: white;
+  background-color: rgb(238, 238, 238);
+  color: rgb(52, 52, 52);
   font-size: 2vw;
   @media screen and (max-width: 1024px) {
     flex-direction: column;
@@ -522,6 +522,8 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background: url("/mainbackground.svg");
+  background-size: cover;
 }
 
 .animal-card {
@@ -596,6 +598,11 @@ a {
   text-align: justify;
 }
 
+.activity-cards {
+  background: url("/mainbackground.svg");
+  background-size: cover;
+}
+
 .activity-card {
   padding: 4vh 2vw;
   display: flex;
@@ -659,11 +666,10 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: rgb(235, 235, 235);
   width: 25%;
   gap: 1.5vw;
   &:hover {
-    color: rgb(230, 230, 230);
+    color: rgb(6, 191, 49);
     width: 25%;
   }
 }
