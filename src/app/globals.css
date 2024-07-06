@@ -172,6 +172,9 @@ a {
   color: rgb(3, 44, 0);
   font-size: 1.6vw;
   animation: hoversubtle 8s ease-in-out infinite;
+
+  filter: drop-shadow(2px 3px 1px rgba(0, 0, 0, 0.849));
+
   &:nth-child(1) {
     background: url("/cloud2.svg");
   }
