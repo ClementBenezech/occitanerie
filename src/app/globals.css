@@ -416,9 +416,39 @@ a {
   background-color: rgb(245, 245, 245);
   padding: 16px;
   font-family: caveat;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(255, 255, 255);
   color: rgb(52, 52, 52);
   font-size: 2vw;
+  position: relative;
+
+  &::after {
+    content: "";
+    background-color: black;
+    background: url("/wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 150px;
+    padding: 0;
+    position: absolute;
+    top: -130px;
+    left: 0;
+  }
+  &::before {
+    content: "";
+    background-color: black;
+    background: url("/waveoutline.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 150px;
+    padding: 0;
+    position: absolute;
+    top: -140px;
+    left: 0;
+  }
   @media screen and (max-width: 1024px) {
     flex-direction: column;
     flex-wrap: wrap;
