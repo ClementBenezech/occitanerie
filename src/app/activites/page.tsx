@@ -56,6 +56,7 @@ export default function Page() {
         className="page-cover-image"
         src={activitiesPicture}
         alt="Une photo montrant des enfants à la ferme"
+        placeholder="blur"
       />
       <div className="standard-section-title">
         {" "}

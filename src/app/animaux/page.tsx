@@ -38,6 +38,7 @@ export default function Page() {
         className="page-cover-image"
         src={animals}
         alt="Une vue aérienne d'une ferme"
+        placeholder="blur"
       />
       <div className="standard-section-title">
         Petits et grands, à plumes ou à poils, sur deux ou quatre pattes... Il y

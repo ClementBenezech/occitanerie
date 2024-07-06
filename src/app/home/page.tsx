@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import homeImg from "../../images/home.jpg";
+import homeImg from "../../images/home_placeholder.jpg";
 import donkeys from "../../images/tirelalangue.jpg";
 
 import styles from "./../page.module.css";
@@ -11,7 +11,8 @@ export default function Home() {
       <Image
         className="page-cover-image"
         src={homeImg}
-        alt="Une vue aérienne d'une ferme"
+        alt="Deux ânes à la ferme"
+        placeholder="blur"
       />
       <div className="standard-section-title">
         L’Occit’Ânerie est une ferme pédagogique située sur la commune de Le
