@@ -57,7 +57,7 @@ export default function Page() {
         <iframe
           width="320"
           height="400"
-          src="https://www.instagram.com/l.occit.anerie/embed/"
+          src="https://www.instagram.com/loccitanerie_ferme_pedagogique/embed/"
           frameBorder="0"
         ></iframe>
         <iframe

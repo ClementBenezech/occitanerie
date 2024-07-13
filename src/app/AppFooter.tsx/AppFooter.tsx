@@ -23,7 +23,7 @@ const AppFooter = () => {
           </a>
           <a
             className="facebook-link"
-            href="https://www.instagram.com/l.occit.anerie"
+            href="https://www.instagram.com/loccitanerie_ferme_pedagogique"
           >
             <FontAwesomeIcon className="app-footer__icon" icon={faInstagram} />
             Instagram
