@@ -1,4 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&family=Indie+Flower&family=Mooli&family=Nunito&display=swap");
+@font-face {
+  font-family: Caveat;
+  src: url(../font/CaveatBrush-Regular.ttf);
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url(../font/PTSans-Regular.ttf);
+}
+
 @keyframes slide-up {
   0% {
     height: 0;
@@ -77,10 +86,10 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  font-family: mooli;
+  font-family: caveat;
   font-size: 1.8vw;
   & > * {
-    font-family: mooli;
+    font-family: caveat;
   }
 }
 
@@ -132,7 +141,7 @@ a {
   }
 
   div {
-    font-family: "Fredericka the Great", cursive;
+    font-family: Caveat, cursive;
   }
 }
 
@@ -326,9 +335,9 @@ a {
 .cover-paragraph {
   padding: 12px 1vw;
   max-width: 100%;
-  color: rgb(1, 43, 0);
-  font-family: mooli;
-  font-size: 1.3vw;
+  color: rgb(30, 30, 30) !important;
+  font-family: "PT Sans";
+  font-size: 1.5vw;
   text-align: justify;
   position: relative;
   display: inline-block;
@@ -350,7 +359,7 @@ a {
   padding: 12px 0vw;
   width: 100%;
   color: white;
-  font-family: mooli;
+  font-family: "PT Sans";
   text-align: justify !important;
   @media screen and (max-width: 1024px) {
     font-size: 4vw;
@@ -359,13 +368,12 @@ a {
 }
 
 .standard-section-title {
-  color: rgb(0, 29, 12) !important;
+  color: rgb(30, 30, 30) !important;
   width: 40vw;
   padding: 2vh 2vw;
   text-align: justify;
   font-size: 1.7vw;
-  font-family: "Indie Flower";
-  position: relative;
+  font-family: Caveat;
   position: absolute;
   bottom: 20%;
   left: -40vw;
@@ -651,7 +659,7 @@ a {
   padding: 12px 10vw;
   width: 100%;
   color: black;
-  font-family: mooli;
+  font-family: "PT Sans";
   font-size: 18px;
   text-align: justify;
   @media screen and (max-width: 1024px) {
@@ -665,7 +673,7 @@ a {
   padding-left: 0vw;
   margin-bottom: 24px;
   width: 80%;
-  color: black;
+  color: rgb(62, 62, 62);
   font-family: caveat;
   font-size: 48px;
   text-align: justify;
