@@ -25,7 +25,7 @@ export default function Home() {
             belle nature, loin des bruits de la route et des villes. Vous
             pourrez y rencontrer nos animaux et découvrir tout un espace
             consacré au maraîchage. C’est aussi l’occasion d’observer la faune
-            et la flore locale grâce au différents éco-systèmes présents sur le
+            et la flore locale grâce aux différents éco-systèmes présents sur le
             site (prairies, étang, forêt).
           </span>
           {/* <span className="standard-paragraph">
