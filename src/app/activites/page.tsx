@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import styles from "../page.module.css";
-import activitiesPicture from "../../images/activites.jpg";
+import activitiesPicture from "../../images/activites.webp";
 import Image from "next/image";
 import { activities } from "@/content/activities/activities";
 import { Activity } from "@/content/activities/activities";

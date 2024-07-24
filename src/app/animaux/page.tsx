@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import styles from "../page.module.css";
-import animals from "../../images/animals.jpg";
+import animals from "../../images/animals.webp";
 import Image from "next/image";
 import { AnimalsData } from "@/content/animals/animals";
 import AnimalCard from "./AnimalCard";

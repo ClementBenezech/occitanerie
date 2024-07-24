@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import styles from "../page.module.css";
-import background from "../../images/about.jpg";
+import background from "../../images/about.webp";
 import Image from "next/image";
 import farmMap from "../../images/plan-de-la-ferme.png";
 

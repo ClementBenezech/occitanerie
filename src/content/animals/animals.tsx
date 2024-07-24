@@ -1,13 +1,13 @@
-import anes from "../../images/animals/anes.jpg";
-import cochons from "../../images/animals/cochons.jpg";
-import cochonsInde from "../../images/animals/cochonsInde.jpg";
-import mao from "../../images/animals/mao.jpg";
-import luluEtYodalf from "../../images/animals/luluEtYodalf.jpg";
-import laineux from "../../images/animals/laineux.png";
-import ouessant from "../../images/animals/ouessant.jpg";
-import poules from "../../images/animals/poules.png";
-import chevres from "../../images/animals/chevreNaine.jpg";
-import chiens from "../../images/animals/chiens.jpg";
+import anes from "../../images/animals/optimized/anes.webp";
+import cochons from "../../images/animals/optimized/cochons.webp";
+import cochonsInde from "../../images/animals/optimized/cochonsInde.webp";
+import mao from "../../images/animals/optimized/mao.webp";
+import luluEtYodalf from "../../images/animals/optimized/luluEtYodalf.webp";
+import laineux from "../../images/animals/optimized/laineux.webp";
+import ouessant from "../../images/animals/optimized/ouessant.webp";
+import poules from "../../images/animals/optimized/poules.webp";
+import chevres from "../../images/animals/optimized/chevreNaine.webp";
+import chiens from "../../images/animals/optimized/chiens.webp";
 export const AnimalsData = [
   {
     name: "Les ânes",

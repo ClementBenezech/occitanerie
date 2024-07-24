@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
-import homeImg from "../../images/home_placeholder.jpg";
-import donkeys from "../../images/tirelalangue.jpg";
+import homeImg from "../../images/home.webp";
+import donkeys from "../../images/tirelalangue.webp";
 
 import styles from "./../page.module.css";
 import Image from "next/image";
